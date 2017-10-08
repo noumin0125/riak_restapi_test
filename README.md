@@ -12,3 +12,4 @@ sinatraからriakのapiを操作する
     $ bundle exec ruby app/main.rb
 
 `http://<servername>:4567/`
+![app](https://user-images.githubusercontent.com/24976921/31319087-2ccd7ecc-ac98-11e7-81a6-db22b4d5539b.png)
