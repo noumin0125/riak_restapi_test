@@ -1,0 +1,10 @@
+Usage: riak-admin bucket-type <command>
+
+The follow commands can be used to manage bucket types for the cluster:
+
+   list                           List all bucket types and their activation status
+   status <type>                  Display the status and properties of a type
+   activate <type>                Activate a type
+   create <type> <json>           Create or modify a type before activation
+   update <type> <json>           Update a type after activation
+

@@ -1,0 +1,6 @@
+current directory: /vagrant/vendor/bundle/ruby/2.3.0/gems/unf_ext-0.0.7.4/ext/unf_ext
+/usr/local/bin/ruby -r ./siteconf20171007-23547-19b03qp.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+Text file busy @ unlink_internal - ./siteconf20171007-23547-19b03qp.rb

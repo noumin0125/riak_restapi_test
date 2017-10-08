@@ -1,0 +1,11 @@
+<label>user list</label>
+<% @result["keys"].each do |value| %>
+<li><a href="/user/detail/<%= value %>"><%= value %></a>:<a href="/user/delete/<%= value %>">x</a></li>
+<% end %>
+<hr>
+<form method="post" action="/user/add">
+  <label>user add</label>
+  <div>name<input type= "text" name="name"></div>
+  <div>team<input type= "text" name="team"></div>
+  <div><input type= "submit" value="add">
+</form>
